@@ -1,0 +1,63 @@
+
+#sobre-nos {
+    flex-direction: column;
+}
+
+#logo-sobre-nos {
+    display: none;
+}
+
+#conteudo-header {
+    padding: 24px;
+}
+
+#texto-header {
+    font-size: 12px;
+}
+
+#botao-contato {
+    font-size: 14px;
+}
+
+.line-equipe {
+    flex-direction: column;
+}
+
+.card {
+    width: 200px;
+    font-size: 16px;
+}
+
+#container-donas{
+    flex-direction: column;
+    align-items: center;
+}
+
+#donas-mockup{
+    width: 100%;
+}
+
+#text-donas{
+    width: 95%;
+    font-size: 20px;
+    text-align: left;
+}
+
+#parcerias-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-parceria{
+    object-fit: cover;
+}
+
+#contato {
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+}

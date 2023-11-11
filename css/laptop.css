@@ -1,0 +1,64 @@
+#logo-header{
+    width: 340px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+#nav-list {
+    display: none;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+#nav-list.active {
+    display: block;
+}
+
+#mobile-button {
+    display: flex;
+}
+
+.nav-links {
+    padding: 4px;
+    text-align: right;
+    padding: 6px;
+}
+
+nav.active .nav-links {
+    background-color: rgb(255, 255, 255, 0.85);
+}
+
+nav.active {
+    background-color: white;
+}
+
+header {
+    font-size: 16px;
+}
+
+#quem-somos{
+    padding: 24px;
+}
+
+.card-servico{
+    width: 280px;
+}
+
+.card {
+    font-size: 12px;
+}
+
+#donas-mockup{
+    width: 400px;
+}
+
+#text-donas{
+    font-size: 20px;
+}
+
+#contato {
+    padding: 40px;
+}

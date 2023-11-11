@@ -1,0 +1,92 @@
+
+#conteudo-header{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#texto-header{
+    width: 90%;
+    align-items: center;
+}
+
+#logo-header{
+    width: 240px;
+}
+
+#scroll-down{
+    display: block;
+}
+
+#text-sobre-nos{
+    width: 320px;
+}
+
+#servicos-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-servico{
+    width: 300px;
+}
+
+#projetos{
+    padding: 240px 24px;
+}
+
+.carrossel-projetos{
+    width: 100%;
+}
+
+.card-projeto-images{
+    width: 100%;
+}
+
+.card-projeto-logo{
+    width: 75px;
+    height: 75px;
+}
+
+.card-projeto-description{
+    width: 100%;
+    font-size: 14px;
+}
+
+.fundo-projetos{
+    width: 250%;
+}
+
+#img-contato{
+    width: 100%;
+}
+
+.form-container-section{
+    width: 100%;
+}
+
+#form-container{
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#links-footer {
+    order: 1
+}
+
+#logo-footer {
+    order: 2;
+    align-self: center;
+    width: auto;
+}
+
+#logo-footer img{
+    display: block;
+}
+
+#social-footer {
+    order: 3
+}

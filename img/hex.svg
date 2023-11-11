@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100"
+    zoomAndPan="magnify" viewBox="0 0 75 60" height="80" preserveAspectRatio="xMidYMid meet"
+    version="1.0" stroke="#ce86ea" opacity="0.4">
+    <defs>
+        <clipPath id="aa51f1007d">
+            <path
+                d="M 46.5 1.378906 L 74.382812 1.378906 L 74.382812 25.277344 L 46.5 25.277344 Z M 46.5 1.378906 "
+                clip-rule="nonzero" />
+        </clipPath>
+        <clipPath id="b46ca5e373">
+            <path
+                d="M 74.382812 13.328125 L 67.414062 25.277344 L 53.472656 25.277344 L 46.5 13.328125 L 53.472656 1.378906 L 67.414062 1.378906 L 74.382812 13.328125 "
+                clip-rule="nonzero" />
+        </clipPath>
+        <clipPath id="f5d8b1d217">
+            <path
+                d="M 0 15.875 L 49.128906 15.875 L 49.128906 58.363281 L 0 58.363281 Z M 0 15.875 "
+                clip-rule="nonzero" />
+        </clipPath>
+        <clipPath id="cc2547ff3a">
+            <path
+                d="M 49.128906 37.117188 L 36.847656 58.363281 L 12.28125 58.363281 L 0 37.117188 L 12.28125 15.875 L 36.847656 15.875 L 49.128906 37.117188 "
+                clip-rule="nonzero" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#aa51f1007d)">
+        <g clip-path="url(#b46ca5e373)">
+            <path stroke-linecap="butt"
+                transform="matrix(1.299772, 0, 0, 1.29631, 46.500548, 1.378519)" fill="none"
+                stroke-linejoin="miter"
+                d="M 21.451663 9.218171 L 16.090145 18.436043 L 5.364102 18.436043 L -0.000421353 9.218171 L 5.364102 0.000299079 L 16.090145 0.000299079 L 21.451663 9.218171 "
+                stroke-width="6" stroke-miterlimit="4" />
+        </g>
+    </g>
+    <g clip-path="url(#f5d8b1d217)">
+        <g clip-path="url(#cc2547ff3a)">
+            <path stroke-linecap="butt"
+                transform="matrix(1.311753, 0, 0, 1.320082, -0.000000000000006553, 15.873876)"
+                fill="none" stroke-linejoin="miter"
+                d="M 37.452871 16.092414 L 28.090397 32.186936 L 9.362473 32.186936 L 0.000000000000004995 16.092414 L 9.362473 0.000851539 L 28.090397 0.000851539 L 37.452871 16.092414 "
+                stroke-width="6" stroke-miterlimit="4" />
+        </g>
+    </g>
+</svg>

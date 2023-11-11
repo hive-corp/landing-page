@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive</title>
+
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css" media="(max-width:1024px)">
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width:900px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width:640px)">
+
+    <link rel="icon" href="img/favicon-dark.png" media="(prefers-color-scheme:dark)">
+    <link rel="icon" href="img/favicon-light.png" media="(prefers-color-scheme:light)">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="splash">
+        <div id="splash-circle"></div>
+    </div>
+
+    <header id="home">
+        <div id="fundo-header">
+            <picture>
+                <source media="(max-width: 640px)" srcset="img/fundos/fundo-mobile.svg" class="fundo">
+                <img src="img/fundos/fundo.svg" class="fundo">
+            </picture>
+            <img src="img/fundos/favos.svg" class="favos-fundo">
+        </div>
+        <nav>
+            <a href="#home">
+                <img id="logo" src="img/logos/logo.svg">
+            </a>
+            <div id="mobile-button">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-list">
+                <li class="nav-links">
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+                <li class="nav-links">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-links">
+                    <a href="#quem-somos">Quem somos?</a>
+                </li>
+                <li class="nav-links">
+                    <a href="#projetos">Nossos projetos</a>
+                </li>
+                <li class="nav-links">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="conteudo-header">
+            <div id="texto-header">
+                <h1>Desenvolvendo seu sucesso.</h1>
+                <h3>Tá pensando num projeto e não sabe com quem falar? É com a gente mesmo!</h3>
+                <a href="#sobre-nos" id="botao-contato">
+                    <span>
+                        Saiba mais
+                    </span>
+                </a>
+            </div>
+            <img src="img/logos/logo.svg" id="logo-header">
+            <a href="#sobre-nos" id="scroll-down"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-nos">
+            <img src="img/logos/logo.svg" id="logo-sobre-nos" data-anime="show-left">
+            <div id="text-sobre-nos" data-anime="show-right">
+                <h1>
+                    Sobre nós
+                    <img src="img/hex.svg">
+                </h1>
+                <p>
+                    A Hive é uma pequena empresa de tecnologia especializada no desenvolvimento de softwares.
+                    Oferecemos soluções personalizadas e inovadoras para ajudar nossos clientes a alcançarem
+                    seus objetivos de negócios. Nossa equipe altamente qualificada está comprometida com a qualidade
+                    de nossos serviços e a satisfação do cliente. Se você procura por soluções
+                    tecnológicas eficazes e um atendimento dedicado, a Hive é a escolha certa.
+                </p>
+            </div>
+        </section>
+        <section id="servicos">
+            <h1 data-anime="show-pop">
+                Nossos serviços
+                <img src="img/hex.svg">
+            </h1>
+            <div id="servicos-container">
+                <div class="card-servico" data-anime="show-left">
+                    <div class="servico-name">MOBILE</div>
+                    <div class="conteudo-servico">
+                        <img src="img/servico-mobile.svg">
+                    </div>
+                </div>
+                <div class="card-servico" data-anime="show-right">
+                    <div class="servico-name">WEB</div>
+                    <div class="conteudo-servico">
+                        <img src="img/servico-web.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quem-somos">
+            <h1 data-anime="show-pop">
+                Quem somos?
+                <img src="img/hex.svg">
+            </h1>
+
+            <div class="line-equipe">
+
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/ana.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#a" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Ana Clara</h4>
+                            <p>Gerente de projetos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/edu.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Eduardo Franklin</h4>
+                            <p>Dev. Fullstack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/julia.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Julia Araújo</h4>
+                            <p>Analista</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/hugo.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Hugo Sales</h4>
+                            <p>Documentação</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/gustavo.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Gustavo Alves</h4>
+                            <p>Dev. Back-end</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-equipe">
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/erick.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Erick Gomes</h4>
+                            <p>Dev. Back-end e Tester</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/sidney.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Sidney George</h4>
+                            <p>Dev. Back-end</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/paulo.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Paulo Gomes</h4>
+                            <p>DBA e Dev. Back-end</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/moises.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Moisés Vicente</h4>
+                            <p>Dev. Fullstack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="show-pop">
+                    <div class="card-image">
+                        <img src="img/fotos/mauri.jpeg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h4>Maurício Ferreira</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="projetos">
+            <h1>
+                Nossos projetos
+            </h1>
+            <div class="carrossel-projetos" data-anime="show-pop">
+
+                <div class="card-projeto">
+                    <div class="card-projeto-images">
+                        <img src="img/projetos/confiserie.png" class="card-projeto-screenshot">
+                        <img src="img/projetos/logo-confiserie.png" class="card-projeto-logo">
+                    </div>
+                    <div class="card-projeto-description">
+                        Confiserie Frufru é uma confeitaria profissional de alto padrão com o tema todo rosa que vem com
+                        o intuito de aproximar as pessoas através da gastronomia
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <div class="card-projeto-images">
+                        <img src="img/projetos/sa.png" class="card-projeto-screenshot">
+                        <img src="img/projetos/logo-sa.jpg" class="card-projeto-logo">
+                    </div>
+                    <div class="card-projeto-description">
+                        Projeto de Sistema Acadêmico, em que é possível fazer a realização de cadastros e consultas de
+                        dados dos alunos.
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <div class="card-projeto-images">
+                        <img src="img/projetos/mangakaz.png" class="card-projeto-screenshot">
+                        <img src="img/projetos/logo-mangakaz.png" class="card-projeto-logo">
+                    </div>
+                    <div class="card-projeto-description">
+                        Projeto de loja de mangás, em que é possível a realização de cadastro e consulta de categorias,
+                        produtos e clientes. Conta com uma página em que é possível realizar a busca de produtos
+                        separadas por páginas.
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <div class="card-projeto-images">
+                        <img src="img/projetos/carcenter.png" class="card-projeto-screenshot">
+                        <img src="img/projetos/logo-carcenter.png" class="card-projeto-logo">
+                    </div>
+                    <div class="card-projeto-description">
+                        Projeto Web da Concessionária CarCenter possibilita aos administradores
+                        o cadastro de veículos, bem como o gerenciamento de vendas e de clientes
+                        com resumos fornecidos por uma dashboard interativa, permite também que
+                        o cliente se cadastre e o pode buscar o veículo ideal.
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <div class="card-projeto-images">
+                        <img src="img/projetos/buffetheaven.png" class="card-projeto-screenshot">
+                        <img src="img/projetos/logo-buffetheaven.png" class="card-projeto-logo">
+                    </div>
+                    <div class="card-projeto-description">
+                        Projeto Web do Buffet Heaven para divulgação e contração de uma empresa
+                        para realização de eventos, mas com o carro chefe de promover os melhores
+                        casamentos, permitindo também que o cliente possa orçamentar a contratação
+                        e escolher o espaço e buffet dos sonhos.
+                    </div>
+                </div>
+
+            </div>
+            <img src="img/fundos/fundo-projetos.svg" class="fundo-projetos">
+        </section>
+
+        <section id="donas">
+            <div id="container-donas" data-anime="show-left">
+                <img src="img/Donas.png" alt="" id="donas-mockup">
+                <div id="text-donas">
+                    <div id="title-donas">
+                        <h1>
+                            DONAS
+                            <img src="img/hex.svg">
+                        </h1>
+                        <p>Unindo mulheres e construindo sonhos</p>
+                    </div>
+
+                    <div id="content-donas">
+                        <p>
+                            O <span>Donas</span> é um sistema web que conecta mulheres <span>empreendedoras</span> a
+                            clientes em potencial, possibilitando que essas anunciem seus <span>produtos e serviços.</span>
+                        </p>
+                    </div>
+
+                    <button id="saiba-mais">
+                        <span>
+                            Saiba mais
+                        </span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="parcerias">
+            <h1 data-anime="show-up">
+                Parceiros
+                <img src="img/hex.svg">
+            </h1>
+            <div id="parcerias-container">
+                <a href="#" data-anime="show-pop">
+                    <img src="img/parcerias/origo.png" class="card-parceria">
+                </a>
+                <a href="#" data-anime="show-pop">
+                    <img src="img/parcerias/bubble.png" class="card-parceria">
+                </a>
+                <a href="#" data-anime="show-pop">
+                    <img src="img/parcerias/imagine.png" class="card-parceria">
+                </a>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div id="img-contato" data-anime="show-left">
+                <img src="img/icons.svg" alt="" class="icon-contato">
+                <img src="img/contato.svg" alt="">
+            </div>
+            <div class="form-container-section" data-anime="show-left">
+                <h1>
+                    Entre em contato!
+                    <img src="img/hex.svg">
+                </h1>
+                <form id="form-container" method="post" action="/envia-email">
+                    <div id="nome-contato" class="input">
+                        <input type="text" name="name" placeholder="Nome completo">
+                        <p class="error-msg">Digite o seu nome.</p>
+                    </div>
+                    <div id="email-contato" class="input">
+                        <input type="email" name="emailRem" placeholder="E-mail">
+                        <p class="error-msg">Digite o seu email.</p>
+                    </div>
+                    <div id="titulo-contato" class="input">
+                        <input type="text" name="subject" placeholder="Assunto">
+                        <p class="error-msg">Digite o assunto do email.</p>
+                    </div>
+                    <div id="assunto-contato" class="input">
+                        <textarea rows='10' name="content" placeholder="Mensagem" rows="15"></textarea>
+                        <p class="error-msg">Digite o conteúdo do email.</p>
+                    </div>
+                    <button id="botao-form" type="button">
+                        <span>
+                            Enviar
+                        </span>
+                    </button>
+                </form>
+                <div id="loading-contato"></div>
+
+            </div>
+        </section>
+
+        <div class="modal" id="enviado">
+            <div class="modal-box">
+                <div class="modal-title">
+                    MENSAGEM ENVIADA
+                </div>
+                <div class="modal-content">
+                    <div class="modal-text">
+                        <i class="fa fa-error"></i>
+                        A sua mensagem foi enviada com sucesso!
+                    </div>
+                    <div class="modal-button">
+                        <button id="fechar-modal">
+                            <span>
+                                OK
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="logo-footer">
+            <img src="img/logos/logo-dark.svg">
+        </div>
+        <div id="links-footer">
+            <div id="index-section">
+                <h4>Índice</h4>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#quem-somos">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Nossos projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="support-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#chat">Chat</a>
+                    </li>
+                    <li>
+                        <a href="#telefone">Telefone</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="social-footer">
+            <div id="social-wrapper">
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
